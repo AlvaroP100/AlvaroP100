@@ -1,26 +1,38 @@
-# Hi, I'm Alvaro.
+<img src="./assets/holo-terminal.svg" width="100%" alt="Mirrored sevens form the Holo mark in a red terminal-style ASCII graphic">
 
-I build practical software products for learning and productivity, with a focus on clear interfaces, reliable systems, and honest documentation.
+# Alvaro / `AlvaroP100`
 
-<img src="./assets/profile-banner.jpg" width="100%" alt="A focused software development workspace with a laptop, notebook, and keyboard">
+> I build software that shows its work. Mostly education tools. Occasionally, the bug is educational too.
 
-## Current work
+```ts
+const currentMode = "build > explain > test > ship";
+const trustMeBroArchitecture = false;
+```
 
-- **Scooly**: an AI learning assistant that explains homework step by step and adapts its language, depth, and notation to each student's school context.
-- **Scooly Notes**: a native iPad note-taking companion built with Swift and PencilKit, designed to connect handwritten class notes directly to Scooly.
-- **Scooly Status**: an independent monitoring and incident page that reports what a technical problem means for the people using Scooly.
+## `/now`
 
-## Toolkit
+- **[Scooly](https://alvarop100.github.io/projects/scooly/)** is an AI learning assistant that explains homework step by step. Copy-paste answers are easy; understanding is the feature.
+- **Scooly Notes** is native PencilKit notebooks today, with handwriting recognition and Scooly sync next. Paper, minus the paper cuts.
+- **[Scooly Status](https://github.com/eliasconrad/scooly-status)** monitors the Scooly stack independently. If production is on fire, the status page should not be in the same fire.
 
-`TypeScript` `Next.js` `Swift` `PencilKit` `Supabase` `PostgreSQL` `Tailwind CSS`
+## `/stack`
 
-## How I build
+```text
+web        TypeScript / Next.js / Tailwind CSS
+native     Swift / PencilKit
+backend    Supabase / PostgreSQL
+```
 
-- Explain product and architecture decisions, not only the finished code.
-- Document current limits instead of hiding them behind marketing language.
-- Treat authentication, privacy, accessibility, and reliability as product requirements.
+## `/rules`
 
-## Find my work
+```js
+if (clever && !clear) refactor();
+if (status === "green" && !evidence) throw new Error("nice try");
+if (readme !== reality) docs.fix();
+```
 
-- [Personal website](https://alvarop100.github.io)
-- [Scooly Status](https://status.scooly.dev)
+## `/links`
+
+- [`website / alvarop100.github.io`](https://alvarop100.github.io)
+- [`status / status.scooly.dev`](https://status.scooly.dev)
+- [`source / github.com/AlvaroP100`](https://github.com/AlvaroP100?tab=repositories)

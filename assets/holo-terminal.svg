@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title description">
+  <title id="title">Alvaro Holo terminal banner</title>
+  <desc id="description">A red ASCII Holo mark made from a mirrored seven and a seven on a charcoal terminal background.</desc>
+
+  <defs>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#18181c"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="#0d0d10"/>
+  <rect width="1200" height="420" fill="url(#scanlines)" opacity="0.72"/>
+  <rect x="0" y="0" width="10" height="420" fill="#e24b52"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
+    <text x="48" y="48" font-size="18" fill="#8d8d98">alvaro@github:~$</text>
+    <text x="244" y="48" font-size="18" fill="#e24b52">./holo --render=ascii</text>
+
+    <g font-size="43" font-weight="700" fill="#e24b52">
+      <text x="250" y="112">7777777</text>
+      <text x="750" y="112">7777777</text>
+      <text x="250" y="154">77</text>
+      <text x="880" y="154">77</text>
+      <text x="330" y="196">77</text>
+      <text x="800" y="196">77</text>
+      <text x="410" y="238">77</text>
+      <text x="720" y="238">77</text>
+      <text x="490" y="280">77</text>
+      <text x="640" y="280">77</text>
+      <text x="545" y="322">7777</text>
+    </g>
+
+    <text x="48" y="394" font-size="17" fill="#e24b52">// idea -&gt; code -&gt; useful</text>
+    <text x="1152" y="394" text-anchor="end" font-size="17" fill="#8d8d98">exit_code: still_building</text>
+  </g>
+</svg>
