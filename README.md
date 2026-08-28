@@ -1,8 +1,8 @@
 <img src="./assets/holo-terminal.svg" width="100%" alt="A normal seven and a flipped seven form the animated red Holo mark">
 
-# Alvaro / `AlvaroP100`
+# Alvaro Petro / `AlvaroP100`
 
-> I build across product, data, security, and automation. The interface is visible; the system behind it is the actual product.
+> Online as Alvaro P100. I build across product, data, security, and automation. The interface is visible; the system behind it is the actual product.
 
 ```ts
 const currentMode = "design > model > secure > build > ship";
@@ -49,5 +49,6 @@ if (readme !== reality) docs.fix();
 ## `/links`
 
 - [`website / alvarop100.github.io`](https://alvarop100.github.io)
+- [`youtube / Alvaro P100`](https://www.youtube.com/@AlvaroP100)
 - [`status / status.scooly.dev`](https://status.scooly.dev)
 - [`source / github.com/AlvaroP100`](https://github.com/AlvaroP100?tab=repositories)
