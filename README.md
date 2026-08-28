@@ -1,19 +1,28 @@
-<img src="./assets/holo-terminal.svg" width="100%" alt="Mirrored sevens form the Holo mark in a red terminal-style ASCII graphic">
+<img src="./assets/holo-terminal.svg" width="100%" alt="A normal seven and a flipped seven form the animated red Holo mark">
 
 # Alvaro / `AlvaroP100`
 
-> I build software that shows its work. Mostly education tools. Occasionally, the bug is educational too.
+> I build across product, data, security, and automation. The interface is visible; the system behind it is the actual product.
 
 ```ts
-const currentMode = "build > explain > test > ship";
+const currentMode = "design > model > secure > build > ship";
 const trustMeBroArchitecture = false;
 ```
 
-## `/now`
+## `/capabilities`
 
-- **[Scooly](https://alvarop100.github.io/projects/scooly/)** is an AI learning assistant that explains homework step by step. Copy-paste answers are easy; understanding is the feature.
-- **Scooly Notes** is native PencilKit notebooks today, with handwriting recognition and Scooly sync next. Paper, minus the paper cuts.
-- **[Scooly Status](https://github.com/eliasconrad/scooly-status)** monitors the Scooly stack independently. If production is on fire, the status page should not be in the same fire.
+<img src="./assets/capability-map.svg" width="100%" alt="Animated ASCII map connecting product systems, cybersecurity, data systems, and automation">
+
+```text
+product systems     web apps / internal tools / APIs / native iPad workflows
+data management     PostgreSQL / Supabase / schemas / migrations / access rules
+cybersecurity       auth / permissions / data privacy / RLS / secrets / threat models
+reliability         monitoring / status pages / incident communication / failure design
+automation + AI     model integrations / document flows / image flows / workflow tooling
+experimental        blockchain integrations / NFT prototypes / new product concepts
+```
+
+I do not treat security and data as cleanup tasks. They belong in the architecture before the interface starts looking finished.
 
 ## `/stack`
 
@@ -21,13 +30,19 @@ const trustMeBroArchitecture = false;
 web        TypeScript / Next.js / Tailwind CSS
 native     Swift / PencilKit
 backend    Supabase / PostgreSQL
+systems    APIs / automation / monitoring / GitHub Pages
 ```
+
+## `/selected-systems`
+
+Current work moves between **[Scooly](https://alvarop100.github.io/projects/scooly/)**, **Scooly Notes**, and **[Scooly Status](https://github.com/eliasconrad/scooly-status)**: adaptive learning, native handwriting, data-backed products, and independent monitoring.
 
 ## `/rules`
 
 ```js
 if (clever && !clear) refactor();
 if (status === "green" && !evidence) throw new Error("nice try");
+if (security === "later") roadmap.reject();
 if (readme !== reality) docs.fix();
 ```
 
