@@ -1,6 +1,6 @@
 <img src="./assets/holo-terminal.svg" width="100%" alt="A normal seven and a flipped seven form the animated red Holo mark">
 
-# Alvaro Petro / `AlvaroP100`
+# Alvaro Patru / `AlvaroP100`
 
 > Online as Alvaro P100. I build across product, data, security, and automation. The interface is visible; the system behind it is the actual product.
 
