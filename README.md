@@ -44,7 +44,7 @@ if (readme !== reality) docs.fix();
 
 ## `/links`
 
-- [`website / alvarop100.github.io`](https://alvarop100.github.io)
+- [`website / ap.patru.eu`](https://ap.patru.eu/)
 - [`linkedin / Alvaro Patru`](https://www.linkedin.com/in/alvaro-patru/)
 - [`youtube / Alvaro P100`](https://www.youtube.com/@AlvaroP100)
 - [`source / github.com/AlvaroP100`](https://github.com/AlvaroP100?tab=repositories)
