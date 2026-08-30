@@ -2,7 +2,7 @@
 
 # Alvaro Patru / `AlvaroP100`
 
-> Online as Alvaro P100. I build across product, data, security, and automation. The interface is visible; the system behind it is the actual product.
+> Online as Alvaro P100. I build across software, infrastructure, data, security, automation, and AI. The interface is visible; the system behind it is the actual product.
 
 ```ts
 const currentMode = "design > model > secure > build > ship";
@@ -19,7 +19,7 @@ data management     PostgreSQL / Supabase / schemas / migrations / access rules
 cybersecurity       auth / permissions / data privacy / RLS / secrets / threat models
 reliability         monitoring / status pages / incident communication / failure design
 automation + AI     model integrations / document flows / image flows / workflow tooling
-experimental        blockchain integrations / NFT prototypes / new product concepts
+infrastructure      servers / deployment / monitoring / operational tooling
 ```
 
 I do not treat security and data as cleanup tasks. They belong in the architecture before the interface starts looking finished.
@@ -33,10 +33,6 @@ backend    Supabase / PostgreSQL
 systems    APIs / automation / monitoring / GitHub Pages
 ```
 
-## `/selected-systems`
-
-Current work moves between **[Scooly](https://alvarop100.github.io/projects/scooly/)**, **Scooly Notes**, and **[Scooly Status](https://github.com/eliasconrad/scooly-status)**: adaptive learning, native handwriting, data-backed products, and independent monitoring.
-
 ## `/rules`
 
 ```js
@@ -49,6 +45,6 @@ if (readme !== reality) docs.fix();
 ## `/links`
 
 - [`website / alvarop100.github.io`](https://alvarop100.github.io)
+- [`linkedin / Alvaro Patru`](https://www.linkedin.com/in/alvaro-patru-203a8637a/)
 - [`youtube / Alvaro P100`](https://www.youtube.com/@AlvaroP100)
-- [`status / status.scooly.dev`](https://status.scooly.dev)
 - [`source / github.com/AlvaroP100`](https://github.com/AlvaroP100?tab=repositories)
