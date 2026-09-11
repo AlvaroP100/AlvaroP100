@@ -2,12 +2,21 @@
 
 # Alvaro Patru / `AlvaroP100`
 
-> Online as Alvaro P100. I build across software, infrastructure, data, security, automation, and AI. The interface is visible; the system behind it is the actual product.
+> I’m Alvaro Patru, known online as AlvaroP100. I build software, IT infrastructure, automation, and AI systems.
 
 ```ts
 const currentMode = "design > model > secure > build > ship";
 const trustMeBroArchitecture = false;
 ```
+
+## About my work
+
+I connect application development with data management, access controls, and the infrastructure behind an application. My current work includes Scooly Notes, a native iPad notebook app within Scooly, and my personal websites.
+
+- **Scooly Notes:** handwriting, notebook organization, local persistence, and synchronization. In development.
+- **Personal websites:** React and TypeScript interfaces, static biography and photo pages, hosting, and GitHub Pages publishing.
+
+[Read my biography](https://ap.patru.eu/about/) · [Project details and public references](https://ap.patru.eu/projects/)
 
 ## `/capabilities`
 
@@ -46,5 +55,6 @@ if (readme !== reality) docs.fix();
 
 - [`website / ap.patru.eu`](https://ap.patru.eu/)
 - [`linkedin / Alvaro Patru`](https://www.linkedin.com/in/alvaro-patru/)
-- [`youtube / Alvaro P100`](https://www.youtube.com/@AlvaroP100)
+- [`X / @Alvaro_P_100`](https://x.com/Alvaro_P_100)
+- [`Instagram / @alvaro_p_100`](https://www.instagram.com/alvaro_p_100/)
 - [`source / github.com/AlvaroP100`](https://github.com/AlvaroP100?tab=repositories)
