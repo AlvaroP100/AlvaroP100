@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Alvaro Patru. I build things that work.</title>
+  <desc id="d">AlvaroP100, software and systems developer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2228"/><stop offset=".45" stop-color="#353f44"/><stop offset="1" stop-color="#d39794"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: system-ui, -apple-system, "SF Pro Display", "Segoe UI", sans-serif; }
+    .name { font-size: 96px; font-weight: 400; letter-spacing: -0.04em; fill: #f5f5f5; }
+    .tag  { font-size: 96px; font-weight: 400; letter-spacing: -0.04em; fill: #f5f5f5; fill-opacity: .55; }
+    .eyebrow { font-size: 17px; font-weight: 500; letter-spacing: .02em; fill: #f5f5f5; fill-opacity: .8; }
+    .sub { font-size: 21px; fill: #f5f5f5; fill-opacity: .7; }
+    @media (prefers-reduced-motion: no-preference) {
+      .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) backwards; }
+      .d2 { animation-delay: .12s } .d3 { animation-delay: .24s }
+    }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px) } }
+  </style>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g transform="translate(64 58)" fill="none" stroke="#f5f5f5" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M0 0H26L8 34"/><path d="M62 0H36L54 34"/>
+  </g>
+  <rect x="64" y="124" width="362" height="38" rx="19" fill="#f5f5f5" fill-opacity=".1" stroke="#f5f5f5" stroke-opacity=".18"/>
+  <text class="eyebrow" x="86" y="149">AlvaroP100 · Software &amp; systems developer</text>
+  <g class="rise"><text class="name" x="60" y="268">Alvaro Patru.</text></g>
+  <g class="rise d2"><text class="tag" x="60" y="364">I build things that work.</text></g>
+</svg>

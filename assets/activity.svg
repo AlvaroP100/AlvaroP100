@@ -1,15 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-39 -230 885 290" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-63 -260 933 340" role="img" aria-labelledby="t">
 <title id="t">3D bar chart of monthly GitHub contributions over the last year, 30 in total</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2228"/><stop offset=".6" stop-color="#353f44"/><stop offset="1" stop-color="#b98582"/></linearGradient></defs>
 <style>
-:root{--f:#007aff;--t:#5ac8fa;--r:#0051d5;--zf:#d1d1d6;--zt:#e5e5ea;--zr:#aeaeb2;--plate:#f2f2f7;--fg:#1d1d1f;--sub:#8e8e93}
-@media (prefers-color-scheme:dark){:root{--f:#0a84ff;--t:#64d2ff;--r:#0040a8;--zf:#3a3a3c;--zt:#48484a;--zr:#2c2c2e;--plate:#1c1c1e;--fg:#f5f5f7;--sub:#98989d}}
-.plate{fill:var(--plate)}.f{fill:var(--f)}.t{fill:var(--t)}.r{fill:var(--r)}
-.z .f{fill:var(--zf)}.z .t{fill:var(--zt)}.z .r{fill:var(--zr)}
-text{font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}
-.m{font-size:16px;fill:var(--sub)}.v{font-size:20px;font-weight:600;fill:var(--fg)}
+.f{fill:#d9dcde}.t{fill:#f5f5f5}.r{fill:#8f969a}
+.pk .f{fill:#d39794}.pk .t{fill:#ecc3c0}.pk .r{fill:#9c6865}
+.z .f{fill:#2b3238}.z .t{fill:#363e45}.z .r{fill:#20262b}
+.plate{fill:#fff;fill-opacity:.07}
+text{font-family:system-ui,-apple-system,"SF Pro Text","Segoe UI",sans-serif}
+.m{font-size:16px;fill:#f5f5f5;fill-opacity:.55}.v{font-size:20px;font-weight:600;fill:#f5f5f5}
+.title{font-size:20px;font-weight:500;fill:#f5f5f5;letter-spacing:-.01em}.cap{font-size:14px;fill:#f5f5f5;fill-opacity:.55}
 @media (prefers-reduced-motion:no-preference){.bar{transform-box:fill-box;transform-origin:bottom;animation:up .8s cubic-bezier(.2,.8,.2,1) backwards}}
 @keyframes up{from{transform:scaleY(.02)}}
 </style>
+<rect x="-63" y="-260" width="933" height="340" rx="28" fill="url(#bg)"/>
+<text class="title" x="-19" y="-210">Activity</text>
+<text class="cap" x="-19" y="-186">30 contributions in the last year</text>
 <polygon class="plate" points="-22.4,2.0 784.0,2.0 825.6,-24.6 19.2,-24.6"/>
 <g class="bar z" style="animation-delay:0ms"><polygon class="r" points="58.2,0.0 87.0,-18.4 87.0,-22.4 58.2,-4.0"/><polygon class="t" points="5.8,-4.0 58.2,-4.0 87.0,-22.4 34.6,-22.4"/><polygon class="f" points="5.8,0.0 58.2,0.0 58.2,-4.0 5.8,-4.0"/></g>
 <text class="m" x="32.0" y="34.0" text-anchor="middle">Nov</text>
@@ -29,7 +34,7 @@ text{font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sa
 <text class="m" x="480.0" y="34.0" text-anchor="middle">Jun</text>
 <g class="bar z" style="animation-delay:360ms"><polygon class="r" points="570.2,0.0 599.0,-18.4 599.0,-22.4 570.2,-4.0"/><polygon class="t" points="517.8,-4.0 570.2,-4.0 599.0,-22.4 546.6,-22.4"/><polygon class="f" points="517.8,0.0 570.2,0.0 570.2,-4.0 517.8,-4.0"/></g>
 <text class="m" x="544.0" y="34.0" text-anchor="middle">Jul</text>
-<g class="bar" style="animation-delay:405ms"><polygon class="r" points="634.2,0.0 663.0,-18.4 663.0,-192.4 634.2,-174.0"/><polygon class="t" points="581.8,-174.0 634.2,-174.0 663.0,-192.4 610.6,-192.4"/><polygon class="f" points="581.8,0.0 634.2,0.0 634.2,-174.0 581.8,-174.0"/></g>
+<g class="bar pk" style="animation-delay:405ms"><polygon class="r" points="634.2,0.0 663.0,-18.4 663.0,-192.4 634.2,-174.0"/><polygon class="t" points="581.8,-174.0 634.2,-174.0 663.0,-192.4 610.6,-192.4"/><polygon class="f" points="581.8,0.0 634.2,0.0 634.2,-174.0 581.8,-174.0"/></g>
 <text class="v" x="622.4" y="-195.2" text-anchor="middle">23</text>
 <text class="m" x="608.0" y="34.0" text-anchor="middle">Aug</text>
 <g class="bar" style="animation-delay:450ms"><polygon class="r" points="698.2,0.0 727.0,-18.4 727.0,-66.8 698.2,-48.3"/><polygon class="t" points="645.8,-48.3 698.2,-48.3 727.0,-66.8 674.6,-66.8"/><polygon class="f" points="645.8,0.0 698.2,0.0 698.2,-48.3 645.8,-48.3"/></g>

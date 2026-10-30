@@ -1,31 +1,32 @@
-<img src="./assets/header.svg" width="100%" alt="Alvaro Patru. Software, infrastructure, automation, and AI.">
+<img src="./assets/hero.svg" width="100%" alt="Alvaro Patru. I build things that work.">
 
-I'm Alvaro Patru, online as AlvaroP100. I build secure software, data systems, and the infrastructure behind them, and I design security and data into the architecture before the interface looks finished.
+I develop apps for macOS, iOS, and Windows, and create AI workflows for clients and businesses. From the interface to the systems behind it.
 
-## Now
+[**Explore my work →**](https://ap.patru.eu/projects/) · [About me](https://ap.patru.eu/about/) · [Website](https://ap.patru.eu/)
 
-- **Scooly Notes** — a native iPad notebook app within Scooly: handwriting, notebook organization, local persistence, and synchronization. In development.
-- **Personal websites** — React and TypeScript interfaces, biography and photo pages, hosting, and GitHub Pages publishing.
+<img src="./assets/workspace.svg" width="100%" alt="My workspace: Apps and websites, systems and workflows, and a short profile card.">
 
-## Activity
+## The person behind the work
 
-<img src="./assets/activity-3d.svg" width="100%" alt="3D bar chart of my monthly GitHub contributions over the last year">
-
-## What I work on
+I'm Alvaro Patru, known online as AlvaroP100 — a software and systems developer.
 
 | | |
 | --- | --- |
-| **Product** | Web apps, internal tools, APIs, native iPad workflows |
-| **Data** | PostgreSQL, Supabase, schemas, migrations, access rules |
-| **Security** | Authentication, permissions, privacy, row-level security, secrets |
-| **Reliability** | Monitoring, status pages, incident communication |
-| **Automation & AI** | Model integrations, document and image flows, workflow tooling |
-| **Infrastructure** | Servers, deployment, operational tooling |
+| **App development** | macOS, iOS, iPadOS & Windows |
+| **AI workflows** | Business automation, connected tools & APIs |
+| **Systems** | IT infrastructure, data & cybersecurity |
 
-## Stack
+## Current roles
 
-TypeScript · Next.js · Tailwind CSS · Swift · PencilKit · Supabase · PostgreSQL
+- **Chief Technology Officer** — FF Systems România · Jun 2026 – present
+- **Application Developer** — Scooly · Aug 2026 – present
+- **Developer** — Pavalo Plac Design · Jun 2026 – present
+- **Senior Developer** — P Solution · Jun 2026 – present
+
+## Activity
+
+<img src="./assets/activity.svg" width="100%" alt="3D bar chart of my monthly GitHub contributions over the last year">
 
 ## Elsewhere
 
-[Website](https://ap.patru.eu/) · [Biography](https://ap.patru.eu/about/) · [Projects](https://ap.patru.eu/projects/) · [LinkedIn](https://www.linkedin.com/in/alvaro-patru/) · [X](https://x.com/Alvaro_P_100) · [Instagram](https://www.instagram.com/alvaro_p_100/)
+[Website](https://ap.patru.eu/) · [LinkedIn](https://www.linkedin.com/in/alvaro-patru/) · [X](https://x.com/Alvaro_P_100) · [Instagram](https://www.instagram.com/alvaro_p_100/)
