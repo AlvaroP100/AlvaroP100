@@ -3,7 +3,7 @@
 
 gh api graphql -f query='{user(login:"AlvaroP100"){contributionsCollection{contributionCalendar{
   totalContributions weeks{contributionDays{date contributionCount}}}}}}' \
-  | python3 scripts/contrib3d.py > assets/contributions-3d.svg
+  | python3 scripts/contrib3d.py > assets/activity-3d.svg
 """
 import calendar, json, sys
 from collections import OrderedDict

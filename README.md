@@ -9,7 +9,7 @@ I'm Alvaro Patru, online as AlvaroP100. I build secure software, data systems, a
 
 ## Activity
 
-<img src="./assets/contributions-3d.svg?v=2" width="100%" alt="3D bar chart of my monthly GitHub contributions over the last year">
+<img src="./assets/activity-3d.svg" width="100%" alt="3D bar chart of my monthly GitHub contributions over the last year">
 
 ## What I work on
 
