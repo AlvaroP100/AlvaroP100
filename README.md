@@ -7,6 +7,10 @@ I'm Alvaro Patru, online as AlvaroP100. I build secure software, data systems, a
 - **Scooly Notes** — a native iPad notebook app within Scooly: handwriting, notebook organization, local persistence, and synchronization. In development.
 - **Personal websites** — React and TypeScript interfaces, biography and photo pages, hosting, and GitHub Pages publishing.
 
+## Activity
+
+<img src="./assets/contributions-3d.svg" width="100%" alt="3D bar chart of my monthly GitHub contributions over the last year">
+
 ## What I work on
 
 | | |
