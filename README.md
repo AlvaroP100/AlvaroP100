@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" width="100%" alt="Alvaro Patru. Software, infrastructure, automation, and AI.">
+<img src="./assets/header.svg" width="100%" alt="Alvaro Patru. Software, infrastructure, automation, and AI.">
 
 I'm Alvaro Patru, online as AlvaroP100. I build secure software, data systems, and the infrastructure behind them, and I design security and data into the architecture before the interface looks finished.
 

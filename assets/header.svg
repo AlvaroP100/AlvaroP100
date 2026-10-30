@@ -2,9 +2,9 @@
   <title id="t">Alvaro Patru</title>
   <desc id="d">Software, infrastructure, automation, and AI.</desc>
   <style>
-    :root { --bg1:#fbfbfd; --bg2:#eef0f5; --fg:#1d1d1f; --sub:#6e6e73; --glow:#ff3b30; }
+    :root { --bg1:#fbfbfd; --bg2:#eef0f5; --fg:#1d1d1f; --sub:#6e6e73; --glow:#007aff; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg1:#0b0b0d; --bg2:#17171b; --fg:#f5f5f7; --sub:#a1a1a6; --glow:#ff453a; }
+      :root { --bg1:#0b0b0d; --bg2:#17171b; --fg:#f5f5f7; --sub:#a1a1a6; --glow:#0a84ff; }
     }
     .name { font: 600 76px -apple-system, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: -0.03em; fill: var(--fg); }
     .tag  { font: 400 28px -apple-system, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: 0; fill: var(--sub); }
