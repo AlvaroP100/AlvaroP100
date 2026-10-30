@@ -32,7 +32,7 @@ for i, (k, v) in enumerate(data):
     a, b = i + GAP / 2, i + 1 - GAP / 2
     d = DEPTH
     out.append(
-        f'<g class="bar" style="animation-delay:{i*45}ms">'
+        f'<g class="bar{" z" if not v else ""}" style="animation-delay:{i*45}ms">'
         f'<polygon class="r" points="{pts((b,0,0),(b,d,0),(b,d,h),(b,0,h))}"/>'
         f'<polygon class="t" points="{pts((a,0,h),(b,0,h),(b,d,h),(a,d,h))}"/>'
         f'<polygon class="f" points="{pts((a,0,0),(b,0,0),(b,0,h),(a,0,h))}"/></g>'
@@ -49,9 +49,10 @@ y0, y1 = -MAXH - 60, 60
 print(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} {y0} {x1-x0:.0f} {y1-y0}" role="img" aria-labelledby="t">
 <title id="t">3D bar chart of monthly GitHub contributions over the last year, {cal["totalContributions"]} in total</title>
 <style>
-:root{{--f:#ff3b30;--t:#ff8a80;--r:#b3150c;--plate:#ececf0;--fg:#1d1d1f;--sub:#6e6e73}}
-@media (prefers-color-scheme:dark){{:root{{--f:#ff453a;--t:#ff9a92;--r:#a3281f;--plate:#1c1c20;--fg:#f5f5f7;--sub:#a1a1a6}}}}
+:root{{--f:#007aff;--t:#5ac8fa;--r:#0051d5;--zf:#d1d1d6;--zt:#e5e5ea;--zr:#aeaeb2;--plate:#f2f2f7;--fg:#1d1d1f;--sub:#8e8e93}}
+@media (prefers-color-scheme:dark){{:root{{--f:#0a84ff;--t:#64d2ff;--r:#0040a8;--zf:#3a3a3c;--zt:#48484a;--zr:#2c2c2e;--plate:#1c1c1e;--fg:#f5f5f7;--sub:#98989d}}}}
 .plate{{fill:var(--plate)}}.f{{fill:var(--f)}}.t{{fill:var(--t)}}.r{{fill:var(--r)}}
+.z .f{{fill:var(--zf)}}.z .t{{fill:var(--zt)}}.z .r{{fill:var(--zr)}}
 text{{font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}}
 .m{{font-size:16px;fill:var(--sub)}}.v{{font-size:20px;font-weight:600;fill:var(--fg)}}
 @media (prefers-reduced-motion:no-preference){{.bar{{transform-box:fill-box;transform-origin:bottom;animation:up .8s cubic-bezier(.2,.8,.2,1) backwards}}}}

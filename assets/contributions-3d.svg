@@ -1,32 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-39 -230 885 290" role="img" aria-labelledby="t">
 <title id="t">3D bar chart of monthly GitHub contributions over the last year, 30 in total</title>
 <style>
-:root{--f:#ff3b30;--t:#ff8a80;--r:#b3150c;--plate:#ececf0;--fg:#1d1d1f;--sub:#6e6e73}
-@media (prefers-color-scheme:dark){:root{--f:#ff453a;--t:#ff9a92;--r:#a3281f;--plate:#1c1c20;--fg:#f5f5f7;--sub:#a1a1a6}}
+:root{--f:#007aff;--t:#5ac8fa;--r:#0051d5;--zf:#d1d1d6;--zt:#e5e5ea;--zr:#aeaeb2;--plate:#f2f2f7;--fg:#1d1d1f;--sub:#8e8e93}
+@media (prefers-color-scheme:dark){:root{--f:#0a84ff;--t:#64d2ff;--r:#0040a8;--zf:#3a3a3c;--zt:#48484a;--zr:#2c2c2e;--plate:#1c1c1e;--fg:#f5f5f7;--sub:#98989d}}
 .plate{fill:var(--plate)}.f{fill:var(--f)}.t{fill:var(--t)}.r{fill:var(--r)}
+.z .f{fill:var(--zf)}.z .t{fill:var(--zt)}.z .r{fill:var(--zr)}
 text{font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}
 .m{font-size:16px;fill:var(--sub)}.v{font-size:20px;font-weight:600;fill:var(--fg)}
 @media (prefers-reduced-motion:no-preference){.bar{transform-box:fill-box;transform-origin:bottom;animation:up .8s cubic-bezier(.2,.8,.2,1) backwards}}
 @keyframes up{from{transform:scaleY(.02)}}
 </style>
 <polygon class="plate" points="-22.4,2.0 784.0,2.0 825.6,-24.6 19.2,-24.6"/>
-<g class="bar" style="animation-delay:0ms"><polygon class="r" points="58.2,0.0 87.0,-18.4 87.0,-22.4 58.2,-4.0"/><polygon class="t" points="5.8,-4.0 58.2,-4.0 87.0,-22.4 34.6,-22.4"/><polygon class="f" points="5.8,0.0 58.2,0.0 58.2,-4.0 5.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:0ms"><polygon class="r" points="58.2,0.0 87.0,-18.4 87.0,-22.4 58.2,-4.0"/><polygon class="t" points="5.8,-4.0 58.2,-4.0 87.0,-22.4 34.6,-22.4"/><polygon class="f" points="5.8,0.0 58.2,0.0 58.2,-4.0 5.8,-4.0"/></g>
 <text class="m" x="32.0" y="34.0" text-anchor="middle">Nov</text>
-<g class="bar" style="animation-delay:45ms"><polygon class="r" points="122.2,0.0 151.0,-18.4 151.0,-22.4 122.2,-4.0"/><polygon class="t" points="69.8,-4.0 122.2,-4.0 151.0,-22.4 98.6,-22.4"/><polygon class="f" points="69.8,0.0 122.2,0.0 122.2,-4.0 69.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:45ms"><polygon class="r" points="122.2,0.0 151.0,-18.4 151.0,-22.4 122.2,-4.0"/><polygon class="t" points="69.8,-4.0 122.2,-4.0 151.0,-22.4 98.6,-22.4"/><polygon class="f" points="69.8,0.0 122.2,0.0 122.2,-4.0 69.8,-4.0"/></g>
 <text class="m" x="96.0" y="34.0" text-anchor="middle">Dec</text>
-<g class="bar" style="animation-delay:90ms"><polygon class="r" points="186.2,0.0 215.0,-18.4 215.0,-22.4 186.2,-4.0"/><polygon class="t" points="133.8,-4.0 186.2,-4.0 215.0,-22.4 162.6,-22.4"/><polygon class="f" points="133.8,0.0 186.2,0.0 186.2,-4.0 133.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:90ms"><polygon class="r" points="186.2,0.0 215.0,-18.4 215.0,-22.4 186.2,-4.0"/><polygon class="t" points="133.8,-4.0 186.2,-4.0 215.0,-22.4 162.6,-22.4"/><polygon class="f" points="133.8,0.0 186.2,0.0 186.2,-4.0 133.8,-4.0"/></g>
 <text class="m" x="160.0" y="34.0" text-anchor="middle">Jan</text>
-<g class="bar" style="animation-delay:135ms"><polygon class="r" points="250.2,0.0 279.0,-18.4 279.0,-22.4 250.2,-4.0"/><polygon class="t" points="197.8,-4.0 250.2,-4.0 279.0,-22.4 226.6,-22.4"/><polygon class="f" points="197.8,0.0 250.2,0.0 250.2,-4.0 197.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:135ms"><polygon class="r" points="250.2,0.0 279.0,-18.4 279.0,-22.4 250.2,-4.0"/><polygon class="t" points="197.8,-4.0 250.2,-4.0 279.0,-22.4 226.6,-22.4"/><polygon class="f" points="197.8,0.0 250.2,0.0 250.2,-4.0 197.8,-4.0"/></g>
 <text class="m" x="224.0" y="34.0" text-anchor="middle">Feb</text>
-<g class="bar" style="animation-delay:180ms"><polygon class="r" points="314.2,0.0 343.0,-18.4 343.0,-22.4 314.2,-4.0"/><polygon class="t" points="261.8,-4.0 314.2,-4.0 343.0,-22.4 290.6,-22.4"/><polygon class="f" points="261.8,0.0 314.2,0.0 314.2,-4.0 261.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:180ms"><polygon class="r" points="314.2,0.0 343.0,-18.4 343.0,-22.4 314.2,-4.0"/><polygon class="t" points="261.8,-4.0 314.2,-4.0 343.0,-22.4 290.6,-22.4"/><polygon class="f" points="261.8,0.0 314.2,0.0 314.2,-4.0 261.8,-4.0"/></g>
 <text class="m" x="288.0" y="34.0" text-anchor="middle">Mar</text>
-<g class="bar" style="animation-delay:225ms"><polygon class="r" points="378.2,0.0 407.0,-18.4 407.0,-22.4 378.2,-4.0"/><polygon class="t" points="325.8,-4.0 378.2,-4.0 407.0,-22.4 354.6,-22.4"/><polygon class="f" points="325.8,0.0 378.2,0.0 378.2,-4.0 325.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:225ms"><polygon class="r" points="378.2,0.0 407.0,-18.4 407.0,-22.4 378.2,-4.0"/><polygon class="t" points="325.8,-4.0 378.2,-4.0 407.0,-22.4 354.6,-22.4"/><polygon class="f" points="325.8,0.0 378.2,0.0 378.2,-4.0 325.8,-4.0"/></g>
 <text class="m" x="352.0" y="34.0" text-anchor="middle">Apr</text>
-<g class="bar" style="animation-delay:270ms"><polygon class="r" points="442.2,0.0 471.0,-18.4 471.0,-22.4 442.2,-4.0"/><polygon class="t" points="389.8,-4.0 442.2,-4.0 471.0,-22.4 418.6,-22.4"/><polygon class="f" points="389.8,0.0 442.2,0.0 442.2,-4.0 389.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:270ms"><polygon class="r" points="442.2,0.0 471.0,-18.4 471.0,-22.4 442.2,-4.0"/><polygon class="t" points="389.8,-4.0 442.2,-4.0 471.0,-22.4 418.6,-22.4"/><polygon class="f" points="389.8,0.0 442.2,0.0 442.2,-4.0 389.8,-4.0"/></g>
 <text class="m" x="416.0" y="34.0" text-anchor="middle">May</text>
-<g class="bar" style="animation-delay:315ms"><polygon class="r" points="506.2,0.0 535.0,-18.4 535.0,-22.4 506.2,-4.0"/><polygon class="t" points="453.8,-4.0 506.2,-4.0 535.0,-22.4 482.6,-22.4"/><polygon class="f" points="453.8,0.0 506.2,0.0 506.2,-4.0 453.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:315ms"><polygon class="r" points="506.2,0.0 535.0,-18.4 535.0,-22.4 506.2,-4.0"/><polygon class="t" points="453.8,-4.0 506.2,-4.0 535.0,-22.4 482.6,-22.4"/><polygon class="f" points="453.8,0.0 506.2,0.0 506.2,-4.0 453.8,-4.0"/></g>
 <text class="m" x="480.0" y="34.0" text-anchor="middle">Jun</text>
-<g class="bar" style="animation-delay:360ms"><polygon class="r" points="570.2,0.0 599.0,-18.4 599.0,-22.4 570.2,-4.0"/><polygon class="t" points="517.8,-4.0 570.2,-4.0 599.0,-22.4 546.6,-22.4"/><polygon class="f" points="517.8,0.0 570.2,0.0 570.2,-4.0 517.8,-4.0"/></g>
+<g class="bar z" style="animation-delay:360ms"><polygon class="r" points="570.2,0.0 599.0,-18.4 599.0,-22.4 570.2,-4.0"/><polygon class="t" points="517.8,-4.0 570.2,-4.0 599.0,-22.4 546.6,-22.4"/><polygon class="f" points="517.8,0.0 570.2,0.0 570.2,-4.0 517.8,-4.0"/></g>
 <text class="m" x="544.0" y="34.0" text-anchor="middle">Jul</text>
 <g class="bar" style="animation-delay:405ms"><polygon class="r" points="634.2,0.0 663.0,-18.4 663.0,-192.4 634.2,-174.0"/><polygon class="t" points="581.8,-174.0 634.2,-174.0 663.0,-192.4 610.6,-192.4"/><polygon class="f" points="581.8,0.0 634.2,0.0 634.2,-174.0 581.8,-174.0"/></g>
 <text class="v" x="622.4" y="-195.2" text-anchor="middle">23</text>
