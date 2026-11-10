@@ -1,60 +1,35 @@
-<img src="./assets/holo-terminal.svg" width="100%" alt="A normal seven and a flipped seven form the animated red Holo mark">
+<img src="./assets/hero-volume.svg" width="100%" alt="Alvaro Patru. I build things that work. Apps, AI workflows and the systems behind them.">
 
-# Alvaro Patru / `AlvaroP100`
+I develop apps for macOS, iOS, and Windows, and create AI workflows for clients and businesses. From the interface to the systems behind it. I treat security and data as architecture, not cleanup.
 
-> I’m Alvaro Patru, known online as AlvaroP100. I build software, IT infrastructure, automation, and AI systems.
+[**Website**](https://ap.patru.eu/) · [Projects](https://ap.patru.eu/projects/) · [Biography](https://ap.patru.eu/about/) · [LinkedIn](https://www.linkedin.com/in/alvaro-patru/) · [X](https://x.com/Alvaro_P_100) · [Instagram](https://www.instagram.com/alvaro_p_100/)
 
-```ts
-const currentMode = "design > model > secure > build > ship";
-const trustMeBroArchitecture = false;
-```
+## Work
 
-## About my work
+| Apps & websites | Systems & workflows | Behind the interface |
+| --- | --- | --- |
+| **Scooly Notes** — a native iPad notebook within Scooly: handwriting, notebook organization, local persistence, synchronization. *In development.* | **Connected workflows** — automation, APIs and AI that make the tools work together. | **Infrastructure, data & security** — servers, deployment, monitoring, PostgreSQL, access rules. |
+| **Personal websites** — React and TypeScript interfaces, biography and photo pages, publishing. | **Reliability** — monitoring, status pages and incident communication. | **Privacy by design** — authentication, permissions, row-level security, secrets. |
 
-I connect application development with data management, access controls, and the infrastructure behind an application. My current work includes Scooly Notes, a native iPad notebook app within Scooly, and my personal websites.
+## Capabilities
 
-- **Scooly Notes:** handwriting, notebook organization, local persistence, and synchronization. In development.
-- **Personal websites:** React and TypeScript interfaces, static biography and photo pages, hosting, and GitHub Pages publishing.
+| | |
+| --- | --- |
+| **App development** | macOS, iOS, iPadOS & Windows |
+| **AI workflows** | Business automation, connected tools & APIs, document and image flows |
+| **Systems** | IT infrastructure, data & cybersecurity |
 
-[Read my biography](https://ap.patru.eu/about/) · [Project details and public references](https://ap.patru.eu/projects/)
+**Stack** — TypeScript · Next.js · Tailwind CSS · Swift · PencilKit · Supabase · PostgreSQL · GitHub Pages
 
-## `/capabilities`
+## Current roles
 
-<img src="./assets/capability-map.svg" width="100%" alt="Animated ASCII map connecting product systems, cybersecurity, data systems, and automation">
+- **Chief Technology Officer** — FF Systems România · Jun 2026 – present
+- **Application Developer** — Scooly · Aug 2026 – present
+- **Developer** — Pavalo Plac Design · Jun 2026 – present
+- **Senior Developer** — P Solution · Jun 2026 – present
 
-```text
-product systems     web apps / internal tools / APIs / native iPad workflows
-data management     PostgreSQL / Supabase / schemas / migrations / access rules
-cybersecurity       auth / permissions / data privacy / RLS / secrets / threat models
-reliability         monitoring / status pages / incident communication / failure design
-automation + AI     model integrations / document flows / image flows / workflow tooling
-infrastructure      servers / deployment / monitoring / operational tooling
-```
+## Commit volume
 
-I do not treat security and data as cleanup tasks. They belong in the architecture before the interface starts looking finished.
+<img src="./assets/volume.svg" width="100%" alt="3D scatter of my commits: date on one axis, hour of day on another, project on the third, colored by lines changed.">
 
-## `/stack`
-
-```text
-web        TypeScript / Next.js / Tailwind CSS
-native     Swift / PencilKit
-backend    Supabase / PostgreSQL
-systems    APIs / automation / monitoring / GitHub Pages
-```
-
-## `/rules`
-
-```js
-if (clever && !clear) refactor();
-if (status === "green" && !evidence) throw new Error("nice try");
-if (security === "later") roadmap.reject();
-if (readme !== reality) docs.fix();
-```
-
-## `/links`
-
-- [`website / ap.patru.eu`](https://ap.patru.eu/)
-- [`linkedin / Alvaro Patru`](https://www.linkedin.com/in/alvaro-patru/)
-- [`X / @Alvaro_P_100`](https://x.com/Alvaro_P_100)
-- [`Instagram / @alvaro_p_100`](https://www.instagram.com/alvaro_p_100/)
-- [`source / github.com/AlvaroP100`](https://github.com/AlvaroP100?tab=repositories)
+Every cluster is a real commit from my own repositories, public and private. The cube's axes are **time** (left to right), **hour of day** (bottom to top) and **project** (front to back), and color is **lines changed** on a log scale, from blue (a line or two) to red (thousands). Project names are left out on purpose. Regenerate with `scripts/fetch_commits.py` and `scripts/volume.py`.
