@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
+  <title id="title">Alvaro capability map</title>
+  <desc id="description">An animated red and gray ASCII diagram connecting product systems, cybersecurity, data systems, and automation.</desc>
+
+  <defs>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#18181c"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .core { animation: core-pulse 3.4s ease-in-out infinite; }
+      .route-a { animation: route-pulse 3.4s step-end infinite; }
+      .route-b { animation: route-pulse 3.4s 1.7s step-end infinite; }
+      .scan { animation: scan-pass 6.5s linear infinite; }
+    }
+
+    @keyframes core-pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.62; transform: scale(0.985); }
+    }
+
+    @keyframes route-pulse {
+      0%, 44%, 100% { opacity: 0.34; }
+      45%, 56% { opacity: 1; }
+    }
+
+    @keyframes scan-pass {
+      from { transform: translateY(0); }
+      to { transform: translateY(390px); }
+    }
+  </style>
+
+  <rect width="1200" height="390" fill="#0d0d10"/>
+  <rect width="1200" height="390" fill="url(#scanlines)" opacity="0.72"/>
+  <rect x="0" y="0" width="10" height="390" fill="#e24b52"/>
+  <rect class="scan" x="10" y="0" width="1190" height="2" fill="#e24b52" opacity="0.18"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
+    <text x="48" y="46" font-size="18" fill="#8d8d98">alvaro@github:~$</text>
+    <text x="244" y="46" font-size="18" fill="#e24b52">./capabilities --map</text>
+
+    <g font-size="21" text-anchor="middle" xml:space="preserve">
+      <text x="600" y="92" fill="#8d8d98">+-------------------+</text>
+      <text x="600" y="118" fill="#e24b52">|  PRODUCT SYSTEMS  |</text>
+      <text x="600" y="144" fill="#8d8d98">+---------+---------+</text>
+      <text x="600" y="170" fill="#8d8d98">          |</text>
+      <text x="600" y="196" fill="#8d8d98">+-----------------+   +---------+   +----------------+</text>
+      <text x="258" y="222" text-anchor="start" fill="#e24b52">| CYBERSECURITY   |</text>
+      <text class="route-a" x="500" y="222" text-anchor="start" fill="#e24b52">---</text>
+      <text class="core" x="600" y="222" fill="#e24b52">|  BUILD  |</text>
+      <text class="route-b" x="676" y="222" text-anchor="start" fill="#e24b52">---</text>
+      <text x="712" y="222" text-anchor="start" fill="#e24b52">|  DATA SYSTEMS  |</text>
+      <text x="600" y="248" fill="#8d8d98">+-----------------+   +----+----+   +----------------+</text>
+      <text x="600" y="274" fill="#8d8d98">                         |</text>
+      <text x="600" y="300" fill="#8d8d98">                +--------+--------+</text>
+      <text x="600" y="326" fill="#e24b52">                | AUTOMATION + AI |</text>
+      <text x="600" y="352" fill="#8d8d98">                +-----------------+</text>
+    </g>
+  </g>
+</svg>
